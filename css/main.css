@@ -110,6 +110,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+    scroll: none:
 }
 .box{
     width: 100%;
