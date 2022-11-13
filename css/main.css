@@ -109,18 +109,19 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    height: 100vh;
 }
 .box{
     width: 100%;
     height: 100%;
     background: #00000098;
     position: relative;
+    height: 100vh;
 }
 .block{
     position: absolute;
     background: #ffffff8f;
     border-radius: 20px;
-    width: 40vw;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -132,7 +133,6 @@ body {
     font-family: 'Neucha', cursive;
     font-size: 8.8em;
     line-height:90.91%;
-    text-align: center;
     color: #0d1357;
 }
 h1 {
@@ -418,10 +418,5 @@ footer .container>p{
     .history{
         width: 100%;
         max-width: 426px;
-    }
-}
-@media (max-width: 500px){
-    body{
-        font-size: 2vw;
     }
 }
