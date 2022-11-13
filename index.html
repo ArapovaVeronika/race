@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Казино</title>
+</head>
+<body>
+    <h1>Рандомные гонки</h1>
+    <div class="container">
+        <div class="track1">
+            <div class="vertical"></div>
+            <div class="horizontal"></div>
+            <div class="finish"></div>
+            <img class="one" src="./img/number.svg" alt="one">
+            <img id="car1" class="avto" src="./img/redCar.svg" alt="avto1">
+        </div>
+        <div class="track2">
+            <div class="vertical2"></div>
+            <div class="horizontal2"></div>
+            <div class="finish"></div>
+            <img class="two" src="./img/two.svg" alt="two">
+            <img id="car2" class="avto" src="./img/grayCar.svg" alt="avto2">
+        </div>
+        <div class="main">
+            <div class="control">
+                <a class="contol__increase" target="_blank" href="./ad.html">Пополнить счёт</a>
+                <p class="contol__check">Твой счёт: <span id="check">0</span> $</p>
+                <p class="contol__bet">Твоя ставка: <span id="bet">0</span> $</p>
+                <div class="control__buttons">
+                    <button id="plusBet">+10</button>
+                    <button id="minusBet">-10</button>
+                    <button id="allBet">Поставить всё</button>
+                </div>
+                <p class="contol__winner">Кто победит?</p>
+                <div class="control__buttons2">
+                    <button id="winnerOne">1 номер</button>
+                    <button id="winnerTwo">2 номер</button>
+                    <button id="start">Старт</button>
+                </div>
+            </div>
+            <ol class="history"></ol>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+           <p>Это просто игра. Остерегайтесь реальных онлайн казино!</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
