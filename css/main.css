@@ -421,7 +421,7 @@ footer .container>p{
         max-width: 426px;
     }
 }
-@media (max-width: 768px){
+@media (max-width: 500px){
     body{
         font-size:2vw;
     }
